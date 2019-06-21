@@ -15,8 +15,12 @@
 }
 
 .circle:nth-of-type(2) {
-	animation-delay: .75s;
+	animation-delay: .5s;
 	background-color: palevioletred;
+}
+.circle:nth-of-type(3) {
+	animation-delay: 1s;
+	background-color: blue;
 }
 
 @keyframes rotate {
